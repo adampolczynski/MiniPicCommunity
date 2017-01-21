@@ -2,8 +2,6 @@ package hitech.example.admin.volleyrequests;
 
 import android.content.Context;
 import android.util.Log;
-
-
 import com.android.volley.AuthFailureError;
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
@@ -11,10 +9,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
-
 import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.json.JSONObject;
-
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
@@ -24,9 +20,9 @@ import java.util.Map;
  * Created by Admin on 2016-12-10.
  */
 
-public class Utils { // wymaga uporzadkowania // class needs sorting
+public class Utils { // Class needs optymalizing, too big mess
 
-    private final static String host = "http://zupelnieniepotrzebnie.comxa.com/";
+    private final static String host = "xxxxxxxxxxxx";
     private final static String TAG = "Utils";
 
     interface VolleyCallback {
@@ -37,7 +33,7 @@ public class Utils { // wymaga uporzadkowania // class needs sorting
         public void onSuccess(JSONObject response);
     }
     public static void request_JSONgetComments (int id, Context context, final JSONCallback callback) {
-        String url = host + "get_comments.php?id="+Integer.toString(id);
+        String url = host + "xxxxxxx.php?id="+Integer.toString(id);
         JsonObjectRequest JsonRequest = new JsonObjectRequest(url, null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
@@ -61,7 +57,7 @@ public class Utils { // wymaga uporzadkowania // class needs sorting
         Singleton.getInstance(context).addToRequestQueue(JsonRequest);
     }
     public static void request_JSONgetBigImg (int id, Context context, final JSONCallback callback) {
-        String url = host + "get_main_img.php?id="+Integer.toString(id)+"&user="+ImgDataHolder.name;
+        String url = host + "xxxxxxxxxxxx.php?id="+Integer.toString(id)+"&user="+ImgDataHolder.name;
         JsonObjectRequest JsonRequest = new JsonObjectRequest(url, null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
@@ -86,7 +82,7 @@ public class Utils { // wymaga uporzadkowania // class needs sorting
     }
     public static void request_commentImg (int id, String comment, String name, Context mContext, final VolleyCallback callback) {
 
-        String url = host+"comment_img.php?id="+Integer.toString(id)+"&comment="+comment+"&name="+name;
+        String url = host+"xxxxxxxx.php?id="+Integer.toString(id)+"&comment="+comment+"&name="+name;
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
@@ -144,7 +140,7 @@ public class Utils { // wymaga uporzadkowania // class needs sorting
     }
     public static void request_getBinImgs (Context mContext, final VolleyCallback callback) {
 
-        String url = host+"get_bin_data.php";
+        String url = host+"xxxxxxx.php";
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
@@ -172,7 +168,7 @@ public class Utils { // wymaga uporzadkowania // class needs sorting
     }
     protected static void request_sendBmps (final Context context, final MultipartEntityBuilder entityB, final VolleyCallback callback) {
 
-        String url = host+"store_bin_data.php";
+        String url = host+"xxxxxxxx.php";
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
