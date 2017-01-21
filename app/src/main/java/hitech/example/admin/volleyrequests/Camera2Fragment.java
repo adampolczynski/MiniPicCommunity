@@ -59,6 +59,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by Admin on 2016-12-11.
  */
+
+// Huge thanks https://github.com/googlesamples/android-Camera2Basic
+
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
 public class Camera2Fragment extends Fragment implements View.OnClickListener, ActivityCompat.OnRequestPermissionsResultCallback {
 
