@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hitech.example.admin.volleyrequests">
+    <uses-permission android:name="android.permission.INTERNET" android:required="false"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" android:required="false" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" android:required="false"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT" android:required="false"/>
+    <uses-permission android:name="android.permission.CAMERA" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera2" android:required="false"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:required="false"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:required="false"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="hitech.example.admin.volleyrequests.MainActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,237 @@
+[
+    {
+        "outputFile": "D:\\Users\\Admin\\Desktop\\VolleyRequests\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "D:\\Users\\Admin\\Desktop\\VolleyRequests\\app\\src\\main\\res\\values-en\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 90,
+                        "endColumn": 57,
+                        "endOffset": 143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "D:\\Users\\Admin\\Desktop\\VolleyRequests\\app\\src\\main\\res\\values-en\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 149,
+                        "endColumn": 55,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 54,
+                    "endOffset": 219
+                },
+                "from": {
+                    "file": "D:\\Users\\Admin\\Desktop\\VolleyRequests\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 54,
+                        "endOffset": 67
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 224,
+                    "endColumn": 59,
+                    "endOffset": 279
+                },
+                "from": {
+                    "file": "D:\\Users\\Admin\\Desktop\\VolleyRequests\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 579,
+                        "endColumn": 59,
+                        "endOffset": 634
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 284,
+                    "endColumn": 62,
+                    "endOffset": 342
+                },
+                "from": {
+                    "file": "D:\\Users\\Admin\\Desktop\\VolleyRequests\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 640,
+                        "endColumn": 62,
+                        "endOffset": 698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 347,
+                    "endColumn": 68,
+                    "endOffset": 411
+                },
+                "from": {
+                    "file": "D:\\Users\\Admin\\Desktop\\VolleyRequests\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 704,
+                        "endColumn": 68,
+                        "endOffset": 768
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 416,
+                    "endColumn": 110,
+                    "endOffset": 522
+                },
+                "from": {
+                    "file": "D:\\Users\\Admin\\Desktop\\VolleyRequests\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 284,
+                        "endColumn": 110,
+                        "endOffset": 390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 527,
+                    "endColumn": 130,
+                    "endOffset": 653
+                },
+                "from": {
+                    "file": "D:\\Users\\Admin\\Desktop\\VolleyRequests\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 396,
+                        "endColumn": 130,
+                        "endOffset": 522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 658,
+                    "endColumn": 49,
+                    "endOffset": 703
+                },
+                "from": {
+                    "file": "D:\\Users\\Admin\\Desktop\\VolleyRequests\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 528,
+                        "endColumn": 49,
+                        "endOffset": 573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 708,
+                    "endColumn": 126,
+                    "endOffset": 830
+                },
+                "from": {
+                    "file": "D:\\Users\\Admin\\Desktop\\VolleyRequests\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 73,
+                        "endColumn": 126,
+                        "endOffset": 195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 835,
+                    "endColumn": 81,
+                    "endOffset": 912
+                },
+                "from": {
+                    "file": "D:\\Users\\Admin\\Desktop\\VolleyRequests\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 201,
+                        "endColumn": 81,
+                        "endOffset": 278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 917,
+                    "endLine": 18,
+                    "endColumn": 12,
+                    "endOffset": 1229
+                },
+                "from": {
+                    "file": "D:\\Users\\Admin\\Desktop\\VolleyRequests\\app\\src\\main\\res\\values-en\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 374
+                    }
+                }
+            }
+        ]
+    }
+]

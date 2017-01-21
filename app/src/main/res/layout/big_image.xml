@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/big_img_layout"
+    android:background="@color/black"
+    android:layout_margin="0dp"
+
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgV"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_launcher"
+            android:background="@null" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/handdownorion"
+            android:id="@+id/hand_down"
+            android:layout_alignParentBottom="false"
+            android:visibility="gone"
+            android:background="@null"
+            android:padding="13dp"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/imgV"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/handuporion"
+            android:id="@+id/hand_up"
+            android:layout_toLeftOf="@+id/hand_down"
+            android:layout_alignParentBottom="false"
+            android:visibility="gone"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:padding="13dp"
+            android:layout_below="@+id/imgV" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rateimg"
+            android:textAlignment="center"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

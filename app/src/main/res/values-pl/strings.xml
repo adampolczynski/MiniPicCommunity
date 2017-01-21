@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MiniPic Community</string>
+    <string name="welcome_text">Witaj, jestem apką Mini Pictures Community i służę do wymiany oraz oceny skromnych plików graficznych!</string>
+    <string name="welcome_text_two">Zostałam zaprojektowana aby tworzyć część programistycznego portfolio.</string>
+    <string name="more_info">Czuj się wolno podzielić nietypowym widokiem! Zgromadzone zdjęcia nie będą w żaden sposób rozpowszechniane.</string>
+    <string name="more_info_two">Sterowanie: kliknięcie miniaturki otwiera widok galerii, lewy przycisk kamerę. Prawy pobiera aktualne obrazy.</string>
+    <string name="photosent">Zdjecie przeslano.</string>
+    <string name="connproblem">Problem z połączeniem</string>
+    <string name="intent1">android.intent.action.MAIN</string>
+    <string name="intent2">android.intent.category.LAUNCHER</string>
+</resources>
