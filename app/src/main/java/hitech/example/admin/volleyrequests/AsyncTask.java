@@ -11,18 +11,17 @@ import android.view.animation.RotateAnimation;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import java.util.ArrayList;
 
 /**
  * Created by Admin on 2016-11-17.
  */
-// sciaga dla nas obrazy przy pomocy GetGrid.java, nastepnie sciaga bitmapy przekazujac do adaptera jako liste bitmap
+
 public class AsyncTask extends android.os.AsyncTask<Void, Integer, ArrayList<Bitmap>> {
 
     Context mContext;
     Bitmap bmp;
-    ArrayList<Bitmap> bmpList = new ArrayList<Bitmap>(); // zawsze pamietaj o inicjalizacji zmiennych pało
+    ArrayList<Bitmap> bmpList = new ArrayList<Bitmap>(); 
     ArrayList<Integer> bmpIds = new ArrayList<Integer>();
     GridView mGridView;
     ImageView mProgressBar;
