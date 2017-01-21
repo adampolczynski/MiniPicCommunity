@@ -78,8 +78,8 @@ public class Camera2Fragment extends Fragment implements View.OnClickListener, A
     private static final int MAX_PREVIEW_HEIGHT = 1080;
     private static final int DOUBLE_CLICK_DEFENDER = 1000;
     private long LAST_CLICK_TIME = 0;
-    private static final int REQUEST_CAMERA_PERMISSION = 200; // do api camera2
-    private static CameraDevice CD; // rowniez do camera2, callback
+    private static final int REQUEST_CAMERA_PERMISSION = 200;
+    private static CameraDevice CD; 
     private ImageReader mImageReader;
     private HandlerThread mBackgroundThread;
     private Handler mBackgroundHandler;
