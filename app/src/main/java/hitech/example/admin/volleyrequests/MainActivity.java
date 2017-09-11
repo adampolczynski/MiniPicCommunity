@@ -4,6 +4,8 @@ import android.app.Fragment;
 import android.content.DialogInterface;
 
 import android.content.pm.ActivityInfo;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.SystemClock;
 import android.provider.Settings;
@@ -55,6 +57,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        ColorDrawable bgDrawable = new ColorDrawable(Color.BLACK);
+        bgDrawable.setAlpha(160);
+        this.getWindow().setBackgroundDrawable(bgDrawable);
         gridView = (GridView) findViewById(R.id.gridview);
         nextBut = (ImageButton) findViewById(R.id.addNext);
         refresh = (ImageButton) findViewById(R.id.refresh);

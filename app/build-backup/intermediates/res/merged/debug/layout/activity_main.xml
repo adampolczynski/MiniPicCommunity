@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    tools:context="com.example.admin.volleyrequests.hitech.example.admin.volleyrequests.MainActivity"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_layout"
+        android:paddingRight="12dp"
+        android:paddingTop="17dp">
+
+        <SeekBar
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar2"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentBottom="false"
+            android:layout_below="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/progressBar"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="false"
+            android:layout_alignBottom="@+id/seekBar2"
+            android:indeterminateDrawable="@null"
+            android:indeterminate="false"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@null"
+            app:srcCompat="@drawable/twist_white"
+            android:layout_marginRight="10dp"
+            android:padding="9dp" />
+
+        <ImageView
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/logo_2"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_width="160dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeCont"
+        android:layout_above="@+id/buttons_container"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp"
+        android:isScrollContainer="true"
+        android:layout_below="@+id/top_layout">
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridview"
+            android:numColumns="2"
+            android:background="@layout/grid_bg"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical|center_horizontal|center" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/buttons_container"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:baselineAligned="false"
+        android:layout_marginBottom="12dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:isScrollContainer="false"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/addNext"
+                android:layout_alignParentBottom="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:background="@drawable/butt_gradient_off"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/button_add_image_foreground"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_marginLeft="14dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="false"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:id="@+id/ref_layout">
+
+            <ImageButton
+                android:id="@+id/refresh"
+                android:contentDescription=""
+                android:scaleType="fitCenter"
+                android:layout_height="wrap_content"
+
+                app:srcCompat="@drawable/refresh"
+                android:background="@color/colorPrimary"
+                android:padding="9dp"
+                android:layout_marginBottom="6dp"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="6dp"
+                android:layout_width="wrap_content"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

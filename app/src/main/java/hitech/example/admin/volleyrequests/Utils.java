@@ -111,7 +111,7 @@ public class Utils { // Class needs optymalizing, too big mess
     }
     public static void request_rateImg (int id, int rate, String comment, String name, Context mContext, final VolleyCallback callback) {
 
-        String url = host+"rate_img.php?id="+Integer.toString(id)+"&rate="+Integer.toString(rate)+"&comment="+comment+"&name="+name;
+        String url = host+"xxxxxx.php?id="+Integer.toString(id)+"&rate="+Integer.toString(rate)+"&comment="+comment+"&name="+name;
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
